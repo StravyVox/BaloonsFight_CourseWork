@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaloonsFightWinForms.Form1" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAASAAABkAAACAAAACAAAYAAAAEGAAAAEAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.Game" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIBgAAAAAQAASAAQAkAAAACAAFAACAIAABAAACIABA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.GraphicDrawer" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAACQAQAAAAQAAAAQgCAAIgAEAAAAEAAAAA=</HashCode>
+      <FileName>GraphicDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.GraphicEngine" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAIAAQAAAAEAAgAACAAAAABAAAQAAAAAQA=</HashCode>
+      <FileName>GraphicEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.GraphicInfoObject" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAACAAAAAAAAAgAAAACAAAAAAAgAAMAEACA=</HashCode>
+      <FileName>GraphicInfoObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.Program" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.Shader" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAgAMAAAAAAAAAAAEAAISJAAAAAAAAAA=</HashCode>
+      <FileName>Shader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.Texture" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAEAA=</HashCode>
+      <FileName>Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaloonsFightWinForms.TexturePreLoader" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TexturePreLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

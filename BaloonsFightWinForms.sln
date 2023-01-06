@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaloonsFightWinForms", "BaloonsFightWinForms\BaloonsFightWinForms.csproj", "{ED465719-88CA-4F65-A5D9-573B163F6317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{C75270D0-7BAE-43D3-A104-F4B25A62269E}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Ball.png = Resources\Ball.png
+		Resources\baloon.png = Resources\baloon.png
+		Resources\container.png = Resources\container.png
+		Resources\heart.png = Resources\heart.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{134D7630-3E3D-4898-9CC1-E5D6F78D668C}"
+	ProjectSection(SolutionItems) = preProject
+		shader.frag = shader.frag
+		shader.vert = shader.vert
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameLogicClassLibrary", "GameLogicClassLibrary\GameLogicClassLibrary.csproj", "{3BAA7102-9DF1-48CD-A9A4-5CCE7773F5D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameNetLibrary", "GameNetLibrary\GameNetLibrary.csproj", "{84D5B6E7-5804-4509-A54F-3F2387F3EC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaloonsFightTest", "BaloonsFightTest\BaloonsFightTest.csproj", "{ABA9A63C-1533-474C-8555-9AA7B393B327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED465719-88CA-4F65-A5D9-573B163F6317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED465719-88CA-4F65-A5D9-573B163F6317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED465719-88CA-4F65-A5D9-573B163F6317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED465719-88CA-4F65-A5D9-573B163F6317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAA7102-9DF1-48CD-A9A4-5CCE7773F5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAA7102-9DF1-48CD-A9A4-5CCE7773F5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAA7102-9DF1-48CD-A9A4-5CCE7773F5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAA7102-9DF1-48CD-A9A4-5CCE7773F5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D5B6E7-5804-4509-A54F-3F2387F3EC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D5B6E7-5804-4509-A54F-3F2387F3EC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D5B6E7-5804-4509-A54F-3F2387F3EC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D5B6E7-5804-4509-A54F-3F2387F3EC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA9A63C-1533-474C-8555-9AA7B393B327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA9A63C-1533-474C-8555-9AA7B393B327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA9A63C-1533-474C-8555-9AA7B393B327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA9A63C-1533-474C-8555-9AA7B393B327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F81367-5820-48D4-8137-666BD07D5A96}
+	EndGlobalSection
+EndGlobal

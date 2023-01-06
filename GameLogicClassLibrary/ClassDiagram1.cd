@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameLogicClassLibrary.AbstractBullet" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Decorator\AbstractBullet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.BigBullet" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\BigBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.Bullet" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.BulletDecorator" Collapsed="true">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\BulletDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.FastBullet" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\FastBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.AbstractBonus" Collapsed="true">
+    <Position X="17.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Fabric\Bonuses\AbstractBonus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.ArmorBonus" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Bonuses\ArmorBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.BigBulletBonus" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Bonuses\BigBulletBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.FuelBonus" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Bonuses\FuelBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.HealthBonus" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Bonuses\HealthBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.SpeedBulletBonus" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Bonuses\SpeedBulletBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.AbstractBonusCreator" Collapsed="true">
+    <Position X="17.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Creators\AbstractBonusCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.ArmorBonusCreator" Collapsed="true">
+    <Position X="12.25" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="GameLogicClassLibrary.AbstractBonusCreator" ManuallyRouted="true">
+      <Path>
+        <Point X="18.5" Y="8" />
+        <Point X="18.5" Y="7.329" />
+        <Point X="13" Y="7.329" />
+        <Point X="13" Y="6.941" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Creators\ArmorBonusCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.BigBulletBonusCreator" Collapsed="true">
+    <Position X="14.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Creators\BigBulletBonusCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.FuelBonusCreator" Collapsed="true">
+    <Position X="16.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Creators\FuelBonusCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.SpeedBulletBonusCreator" Collapsed="true">
+    <Position X="21.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fabric\Creators\SpeedBulletBonusCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.Balloon" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAEgAAgAAACAE=</HashCode>
+      <FileName>Balloon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.SecondPlayerObjectsOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACQAAAQAAAAIAAAAAEQAAgAAAAQAAAAAAACAAEA=</HashCode>
+      <FileName>SecondPlayerObjectsOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.CollissionChecker" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollissionChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.FrameWorker" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>FrameWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.GameObject" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAgAABAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.GraphicObject" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAgAAgAAAAAAAAAAAAAAAIAAAAhAIIIAA=</HashCode>
+      <FileName>GraphicObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.HealthBonusCreator" Collapsed="true">
+    <Position X="19" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>HealthBonusCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.ObjectMover" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectMover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogicClassLibrary.PlayerGameLogic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAEAAIAJAAAAAAACAAAAAAgAAAABAAAAAAIAAA=</HashCode>
+      <FileName>PlayerGameLogic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.PlayerObjectsOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACQAAAQAAAAIAAAACEQAAgAAAAQAAAAAAACAAEA=</HashCode>
+      <FileName>PlayerObjectsOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.ShootHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAQAAAAE=</HashCode>
+      <FileName>ShootHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameLogicClassLibrary.UIObjectsOperator" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIObjectsOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GameLogicClassLibrary.IBaseLogic" Collapsed="true">
+    <Position X="23.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAAJAAAAAAAAAAAAAAgAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>IBaseLogic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameLogicClassLibrary.IFrame" Collapsed="true">
+    <Position X="25.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>IFrame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameLogicClassLibrary.IObjectsOperator" Collapsed="true">
+    <Position X="27.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAQAAAAAAAAAAEAAAgAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>IObjectsOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
